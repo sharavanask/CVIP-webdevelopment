@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Simple Code Editor</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <section class="container">
+            <h1>Simple Code Editor</h1>
+            <div class="editor">
+                <div class="left">
+                    <label>HTML</label>
+                    <textarea  onkeyup="run()" spellcheck="false" id="html-code"></textarea>
+
+                    <label>css</label>
+                    <textarea onkeyup="run()"spellcheck="false" id="css-code"></textarea>
+
+                    <label>Javascript</label>
+                    <textarea onkeyup="run()"spellcheck="false" id="js-code"></textarea>
+                </div>
+
+                
+                <div class="right" id="bx bx-play">
+                    <h1>OUTPUT</h1>
+                    <iframe id="output"></iframe>
+                </div>
+                    
+            </div>
+
+        </section>
+    </body>
+
+    </html>
