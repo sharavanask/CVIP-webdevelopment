@@ -1,2 +1,1 @@
-# Coderscave webdevelopment
-simple portfolio webpage
+# Coderscave webdevelopment internship
